@@ -1,0 +1,25 @@
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: var(--third);
+}
+.number {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--third);
+}
+.close {
+  transition: fill ease-in linear;
+}
+.close:hover {
+  fill: red;
+}

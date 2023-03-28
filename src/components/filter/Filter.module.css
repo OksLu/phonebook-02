@@ -1,0 +1,35 @@
+.input {
+  width: 400px;
+  height: 50px;
+  outline: transparent;
+  border: 2px solid var(--fifth);
+  border-radius: 4px;
+  cursor: pointer;
+  color: #2e151b;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  background-color: var(--first);
+
+  transition: border-color ease-in linear;
+}
+.input:focus-within {
+  border-color: var(--third);
+  outline: transparent;
+}
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--fourth);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+}

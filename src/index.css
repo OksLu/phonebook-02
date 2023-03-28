@@ -7,9 +7,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #828081;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: transparent;
+  cursor: pointer;
+  background-color: inherit;
+}
+h2 {
+  font-size: 42px;
+  color: var(--fourth);
+}
+svg {
+  width: 25px;
+  height: 25px;
+  fill: var(--third);
+}
+:root {
+  --first: #efefef;
+  --second: #d7cec7;
+  --third: #2e151b;
+  --fourth: #caebf2;
+  --fifth: #a9a9a9;
 }
